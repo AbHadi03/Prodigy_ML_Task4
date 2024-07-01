@@ -1,19 +1,3 @@
-Here's the extracted content from the initial part of your notebook:
-
-```python
-!mkdir -p ~/.kaggle
-!cp kaggle.json ~/.kaggle/
-!kaggle datasets download -d gti-upm/leapgestrecog
-import zipfile
-zip_ref = zipfile.ZipFile('/content/leapgestrecog.zip', 'r')
-zip_ref.extractall('/content')
-zip_ref.close()
-```
-
-Based on the provided aim and initial code content, I will create a README file for your hand gesture recognition model project.
-
----
-
 ## Hand Gesture Recognition Model
 
 ### Aim
